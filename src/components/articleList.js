@@ -10,8 +10,9 @@ function ArticleList({ posts }) {
             preview={post.preview}
         />
     ));
-        return
+        return (
             <main>{articles}</main>
+        )
 }
 
 export default ArticleList;
